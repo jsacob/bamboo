@@ -59,7 +59,7 @@ function App() {
               <img
                 src={bambooFood}
                 alt="bamboo food"
-                className={`h-[350px] w-[350px] rounded-md transition duration-300 ${isFoodHovered ? 'blur-lg bg-black' : ''
+                className={`h-[350px] w-[350px] rounded-md transition duration-300 ${isFoodHovered ? 'blur-lg' : ''
                   }`}
               />
               {isFoodHovered && (
@@ -70,7 +70,8 @@ function App() {
             <div>
               <h1 className='text-3xl font-bold text-center pb-5'>Food</h1>
               <p className='text-center'>
-                Bamboo shoots have been an important part of East Asian cuisine for thousands of years, with records in China dating back roughly 3,000 years. They are sweet, crisp, and rich in fiber and potassium, making them a nutritious addition to meals. Traditional beliefs held that bamboo shoots could aid digestion and provide a cooling effect, though these are cultural observations rather than scientifically proven health benefits. Bamboo shoots became staples in stir-fries, soups, and stews, valued for their texture and ability to absorb flavors. Over time, bamboo consumption spread throughout Asia—from Japan to India—and today, bamboo shoots are enjoyed in dishes worldwide for their taste and nutritional value.</p>
+                Bamboo shoots (young bamboo sprouts) have been a vital ingredient in traditional dishes among East Asians for around 3,000 years. The shoots are known to be sweet, crisp, and easily accessible, making them the perfect snack for ancient East Asians. This plant is rich in fiber and potassium, making it a nutritious addition to traditional meals. In Chinese culture, it is believed that eating bamboo shoots can aid digestion issues, cool down the body on hot days or during a fever, and can help clear someone’s asthma. With all the benefits, bamboo shoots have become a staple ingredient in Asian dishes. These include stir-fries, soups, and stews. The bamboo shoots are valued for their texture and their ability to absorb flavors. Today bamboo shoots are enjoyed and eaten worldwide.
+              </p>
             </div>
           </div>
 
@@ -98,7 +99,8 @@ function App() {
             <div>
               <h1 className='text-3xl font-bold text-center pb-5'>Packaging</h1>
               <p>
-                Bamboo has long been used in East Asia for packaging and transporting goods such as grains, food, and textiles, thanks to its strength, flexibility, and abundance. While plastic became the dominant packaging material in modern times, environmental concerns have renewed interest in bamboo. Today, modern processing techniques allow bamboo to be made into durable containers, cutlery, wraps, and compostable packaging that can help reduce single-use plastics. While still a niche market, bamboo packaging offers a sustainable alternative and highlights the plant’s versatility as a renewable resource.</p>
+                Bamboo has been used as packaging in East Asia for thousands of years. Since bamboo grows so fast and has incredible strength and flexibility, it was the perfect material to weave baskets out of, using those to transport goods such as grains, food, and textiles. In the modern world, plastic became the new go-to for packaging, dominating the world. Environmental concerns grew about plastic since it takes up to 1,000 years to decompose after its single use. This brought bamboo back into the picture as an alternative. Modern technology allows bamboo to be made into durable containers, cutlery, wraps, and compostable packaging that can help reduce single-use plastics. And it’s all biodegradable!
+              </p>
             </div>
           </div>
 
@@ -131,7 +133,8 @@ function App() {
             <div>
               <h1 className='text-3xl font-bold text-center pb-5'>Construction</h1>
               <p className='text-center'>
-                Bamboo has been used as a building material for thousands of years. Although wood, brick, and concrete became more common in modern construction, bamboo is regaining attention due to its strength, sustainability, and versatility. Often called “green steel” for its impressive strength-to-weight ratio, bamboo can be used in houses, bridges, scaffolding, and architectural frameworks. Advances in engineering now allow it to be processed into laminated boards and structural composites suitable for flooring, wall panels, roofing, and prefabricated components. While bamboo may not replace traditional materials on a large scale, its rapid growth, low carbon footprint, and natural durability make it an increasingly attractive option in sustainable architecture and eco-friendly building projects.</p>
+                When you think of building a house, your mind probably first wanders to building materials like wood, bricks, and concrete. Most homes in the United States are made from these sturdy materials, but each of these goods is expensive, inflexible, and not environmentally friendly. Here’s where bamboo comes in. Known as “green steel,” bamboo is an impressive building material. It’s strong, being known for its incredible strength-to-weight ratio, sustainable since it grows so quickly, and versatile, being used for houses, bridges, scaffolding, and architectural frameworks. Bamboo is quick to the race in sustainable architecture.
+              </p>
             </div>
           </div>
 
@@ -159,7 +162,8 @@ function App() {
             <div>
               <h1 className='text-3xl font-bold text-center pb-5'>Textiles</h1>
               <p>
-                Bamboo is a versatile material in textiles and household products. It can be processed into bamboo rayon, bamboo lyocell, or mechanically softened fibers, each offering softness, breathability, and natural antibacterial properties. These fibers are used in clothing, towels, sheets, socks, and reusable cloths. Bamboo is also used for eco-friendly toilet paper, which is biodegradable and requires fewer resources than traditional wood-pulp paper. Additionally, bamboo’s strength and light weight make it ideal for utensils such as chopsticks, which are popular across Asia and increasingly used worldwide as a sustainable alternative to plastic or hardwood. Note that some bamboo textiles, like bamboo rayon, require chemical processing, so the environmental impact depends on production methods.</p>
+                Textiles are one of the leading products in landfills. As humans we run through paper, clothes, and toothbrushes like crazy, which are all mostly made from non-sustainable material. That’s where bamboo comes in. Bamboo is a versatile material that can be used in textiles and household products. Bamboo rayon, lyocell, or mechanically softened fibers can be used in clothing, towels, sheets, socks, and reusable cloths known to have antibacterial and natural properties. Bamboo can be made into eco-friendly toilet paper and paper. It can also be used for chopsticks, toothbrushes, and hairbrushes. It being lightweight and strong make it the perfect material for utensils.
+              </p>
             </div>
           </div>
         </div>
@@ -189,53 +193,75 @@ function App() {
             <div>
               <h1 className='text-3xl font-bold text-center pb-5'>Energy & The Future</h1>
               <p className='text-center'>
-                Bamboo is a promising renewable energy source due to its rapid growth, high biomass yield, and ability to grow on marginal land. Traditionally used for cooking and heating, bamboo can now be converted into charcoal, pellets, briquettes, bioethanol, and biogas, providing cleaner alternatives to fossil fuels. While its high calorific value and fast regrowth are advantages, bamboo-based bioenergy is currently limited in scale. Nevertheless, in regions where it grows abundantly, bamboo has potential to support bioenergy production, carbon-neutral fuel systems, and rural electrification projects, contributing to more sustainable energy strategies.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex flex-col items-center m-10 space-y-10">
-          {/* ENVIRONMENT SECTION */}
-          <div
-            className="flex flex-col items-center w-full max-w-[1200px] m-4 md:m-10 space-y-4"
-            data-aos="fade-up"
-          >
-            <div
-              className="relative"
-              onMouseEnter={() => setIsEnvironmentHovered(true)}
-              onMouseLeave={() => setIsEnvironmentHovered(false)}
-            >
-              <img
-                src={bambooEnviorment}
-                alt="bamboo Environment"
-                className={`w-full max-w-[1400px] rounded-md transition duration-300 ${isEnvironemntHovered ? 'blur-lg' : ''}`}
-              />
-              {isEnvironemntHovered && (
-                <div className="absolute inset-0 flex items-center justify-center text-white font-bold text-center p-4 pointer-events-none">
-                  Fun Fact: When bamboo is used as bioenergy instead of coal or wood, it can cut carbon emissions by up to 70%, making it a powerful tool in the fight against climate change.
-                </div>
-              )}
-            </div>
-
-            <div className="text-center">
-              <h1 className="text-3xl font-bold pb-5">Environmental Impact of Bamboo Energy</h1>
-              <p>
-                Bamboo is a versatile and environmentally friendly energy option. Using bamboo for bioenergy can reduce reliance on fossil fuels, lower greenhouse gas emissions, and support carbon-neutral fuel systems. Bamboo plantations can thrive on marginal or degraded lands, potentially helping prevent deforestation and improve soil health. Additionally, bamboo cultivation can provide sustainable livelihoods for rural communities. However, careful management is needed to ensure biodiversity is preserved and ecosystems are not disrupted.
+                Bamboo is a promising renewable energy source due to its rapid growth, high biomass yield, and ability to grow almost anywhere. Bamboo is traditionally known as a cooking and heating source, but with modern technology now can have many more uses, including being converted into charcoal, bioethanol, and biogas, providing cleaner alternatives to fossil fuels. Right now all these alternatives are limited in scale since there aren’t many energy companies using this alternative to make a cleaner and sustainable future. Nevertheless, in regions where it grows abundantly, bamboo has potential to support bioenergy production, carbon-neutral fuel systems, and rural electrification projects, contributing to more sustainable energy strategies.
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center mt-8 gap-4">
-        <a href="https://link.springer.com/article/10.1007/s11430-023-1387-x" class="text-blue-600 hover:text-blue-800">Springer Nature Link</a>
-        <a href="https://www.mdpi.com/2673-7655/5/2/11" class="text-blue-600 hover:text-blue-800">MDPI Article 1</a>
-        <a href="https://www.aboutcivil.org/bamboo-as-building-material.html" class="text-blue-600 hover:text-blue-800">AboutCivil</a>
-        <a href="https://www.mdpi.com/2071-1050/13/21/12200" class="text-blue-600 hover:text-blue-800">MDPI Article 2</a>
-        <a href="https://academic.oup.com/ijlct/article/doi/10.1093/ijlct/ctae237/7906998" class="text-blue-600 hover:text-blue-800">OUP Article</a>
-        <a href="https://www.mdpi.com/2223-7747/14/19/3019" class="text-blue-600 hover:text-blue-800">MDPI Article 3</a>
+      <div className="max-w-3xl mx-auto p-6">
+        <h1 className="text-3xl font-bold mb-6 border-b pb-2">Work Cited Page</h1>
+
+        <div className="space-y-4 text-lg">
+
+          <div>
+            <p className="font-semibold">“Bamboo as a Renewable Energy Source.”</p>
+            <a
+              href="https://www.greencitytimes.com/bamboo-as-a-renewable-energy-source/"
+              className="text-blue-600 hover:underline break-all"
+            >
+              www.greencitytimes.com/bamboo-as-a-renewable-energy-source/
+            </a>
+          </div>
+
+          <div>
+            <p className="font-semibold">“Building with Bamboo: A Sustainable Solution for the Future.”</p>
+            <a
+              href="https://www.ice.org.uk/news-views-insights/inside-infrastructure/building-with-bamboo"
+              className="text-blue-600 hover:underline break-all"
+            >
+              www.ice.org.uk/news-views-insights/inside-infrastructure/building-with-bamboo
+            </a>
+            <p className="text-sm text-gray-600">Institution of Civil Engineers, 17 Apr. 2025</p>
+          </div>
+
+          <div>
+            <p className="font-semibold">Japan’s Bamboo Shoots: Dishes, History & Symbolism.</p>
+            <a
+              href="https://sakura.co/blog/bamboo-shoots-as-seasonal-food-in-japan"
+              className="text-blue-600 hover:underline break-all"
+            >
+              sakura.co/blog/bamboo-shoots-as-seasonal-food-in-japan
+            </a>
+            <p className="text-sm text-gray-600">Sakuraco, 11 Feb. 2022</p>
+          </div>
+
+          <div>
+            <p className="font-semibold">
+              Liang, Zhiwei, et al. “Potential Use of Bamboo Resources in Energy Value-Added Conversion Technology and Energy Systems.”
+            </p>
+            <p className="italic">GCB Bioenergy, vol. 15, no. 8, 2023</p>
+            <a
+              href="https://doi.org/10.1111/gcbb.13072"
+              className="text-blue-600 hover:underline break-all"
+            >
+              doi:10.1111/gcbb.13072
+            </a>
+          </div>
+
+          <div>
+            <p className="font-semibold">“The Many Bamboo Uses Throughout History to Today.”</p>
+            <a
+              href="https://amazuluinc.com/the-many-bamboo-uses-throughout-history-to-today"
+              className="text-blue-600 hover:underline break-all"
+            >
+              amazuluinc.com/the-many-bamboo-uses-throughout-history-to-today/
+            </a>
+          </div>
+
+        </div>
       </div>
     </>
   );
 }
-
 export default App;
