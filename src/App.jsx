@@ -8,7 +8,6 @@ import bambooPackaging from './assets/images/bambooFood.jpg'
 import bambooConstruction from './assets/images/bambooConstruction.jpg'
 import bambooTextile from './assets/images/bambooTextile.jpg'
 import bambooEnergy from './assets/images/bambooEnergy.jpg'
-import bambooEnviorment from './assets/images/bambooEnvironment.jpg'
 
 function App() {
   const [isFoodHovered, setIsFoodHovered] = useState(false);
@@ -16,7 +15,6 @@ function App() {
   const [isConstructionHovered, setIsConstructionHovered] = useState(false);
   const [isTextTileHovered, setIsTextTileHovered] = useState(false);
   const [isEnergyHovered, setIsEnergyHovered] = useState(false);
-  const [isEnvironemntHovered, setIsEnvironmentHovered] = useState(false);
 
   useEffect(() => {
     AOS.init({duration: 2000, once: true});
@@ -27,10 +25,11 @@ function App() {
       {/* HEADER/BANNER */}
       <div className="flex flex-col md:space-y-10 space-y-6 px-4 md:px-10">
         <div
+
           className="flex flex-col items-center m-10"
           data-aos="fade-down"
         >
-
+          <p className="pb-10 text-lg font-bold">By: Lillian Schwam</p>
           <img
             src={bamboo}
             alt="bamboo banner"
