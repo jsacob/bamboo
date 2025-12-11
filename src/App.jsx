@@ -2,7 +2,6 @@ import AOS from "aos"
 import "aos/dist/aos.css";
 import {useState, useEffect} from 'react';
 
-import './App.css'
 import bamboo from './assets/images/bambooHeader.jpg'
 import bambooFood from './assets/images/bambooPackaging.jpg'
 import bambooPackaging from './assets/images/bambooFood.jpg'
@@ -20,7 +19,7 @@ function App() {
   const [isEnvironemntHovered, setIsEnvironmentHovered] = useState(false);
 
   useEffect(() => {
-    AOS.init({duration: 1000, once: true});
+    AOS.init({duration: 2000, once: true});
   }, [])
 
   return (
@@ -65,7 +64,7 @@ function App() {
               />
               {isFoodHovered && (
                 <div className="absolute inset-0 flex items-center justify-center text-white font-bold text-center p-4 pointer-none">
-                  Fun Fact: Bamboo shoots have been on the menu for over 3,000 years in China—and they’re not just tasty! They were once believed to cool the body and aid digestion, making them an ancient “superfood".</div>
+                  Fun Fact: Bamboo shoots have been on the menu for over 3,000 years in China and they’re not just tasty! They were once believed to cool the body and aid digestion, making them an ancient “superfood".</div>
               )}
             </div>
             <div>
@@ -154,7 +153,7 @@ function App() {
               />
               {isTextTileHovered && (
                 <div className="absolute inset-0 flex items-center justify-center text-white text-center p-4 pointer-events-none">
-                  Fun Fact: Bamboo isn’t just for pandas—its fibers are naturally antibacterial, soft, and strong, which is why they’re used for everything from clothing and towels to eco-friendly toilet paper and chopsticks!</div>
+                  Fun Fact: Bamboo isn’t just for pandas its fibers are naturally antibacterial, soft, and strong, which is why they’re used for everything from clothing and towels to eco-friendly toilet paper and chopsticks!</div>
               )}
             </div>
             <div>
@@ -226,6 +225,14 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex flex-wrap justify-center mt-8 gap-4">
+        <a href="https://link.springer.com/article/10.1007/s11430-023-1387-x" class="text-blue-600 hover:text-blue-800">Springer Nature Link</a>
+        <a href="https://www.mdpi.com/2673-7655/5/2/11" class="text-blue-600 hover:text-blue-800">MDPI Article 1</a>
+        <a href="https://www.aboutcivil.org/bamboo-as-building-material.html" class="text-blue-600 hover:text-blue-800">AboutCivil</a>
+        <a href="https://www.mdpi.com/2071-1050/13/21/12200" class="text-blue-600 hover:text-blue-800">MDPI Article 2</a>
+        <a href="https://academic.oup.com/ijlct/article/doi/10.1093/ijlct/ctae237/7906998" class="text-blue-600 hover:text-blue-800">OUP Article</a>
+        <a href="https://www.mdpi.com/2223-7747/14/19/3019" class="text-blue-600 hover:text-blue-800">MDPI Article 3</a>
       </div>
     </>
   );
